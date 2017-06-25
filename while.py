@@ -36,6 +36,7 @@
 balance = 10000
 times = 0
 while balance <= 20000:
-    balance = balance+balance*0.0325
+    #balance = balance+balance*0.0325
+    balance *= (1+0.0325)
     times += 1
 print(times)
