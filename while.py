@@ -20,15 +20,22 @@
 #     s = number1+s
 #     print(s)
 
-s = 0
-time = 0
-while True:
-    number1 = input("input number is: ")
-    if not number1.strip():
-        break
-    elif not number1.isdigit():
-        print("only support input number")
-    else:
-        time += 1
-        s = (int(number1)+s)/time
-        print(s)
+# s = 0
+# time = 0
+# while True:
+#     number1 = input("input number is: ")
+#     if not number1.strip():
+#         break
+#     elif not number1.isdigit():
+#         print("only support input number")
+#     else:
+#         time += 1
+#         s = (int(number1)+s)/time
+#         print(s)
+
+balance = 10000
+times = 0
+while balance <= 20000:
+    balance = balance+balance*0.0325
+    times += 1
+print(times)
