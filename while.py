@@ -11,11 +11,24 @@
 #     name = input("input name is: ")
 # print('my name is:',name)
 
+# s = 0
+# number1 = ''
+# while number1 != 0:
+#     number1 = int(input("input nubmer is:"))
+#     if number1 == 0:
+#         break
+#     s = number1+s
+#     print(s)
+
 s = 0
-number1 = ''
-while number1 != 0:
-    number1 = int(input("input nubmer is:"))
-    if number1 == 0:
+time = 0
+while True:
+    number1 = input("input number is: ")
+    if not number1.strip():
         break
-    s = number1+s
-    print(s)
+    elif not number1.isdigit():
+        print("only support input number")
+    else:
+        time += 1
+        s = (int(number1)+s)/time
+        print(s)
