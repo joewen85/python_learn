@@ -2,4 +2,9 @@
 #auther: Joe wen
 a = 'hello'
 b = 'world'
-print(a,b)
+print('aa'+a+'bb'+b)
+
+print(1+2)
+
+print(4*5)
+
