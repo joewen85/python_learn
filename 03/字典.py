@@ -46,6 +46,7 @@ content='''first of all, i wantiiiiiiiiii make it clear that i can not claim und
 content = ''.join(content.split())  #去除空格
 #print(content)
 res = {}
+numb = []
 count = 0
 for s in content:
     #res[s] = 0
@@ -55,3 +56,10 @@ for s in content:
         res[s] = count+1
 print(res)
 
+#将结果，打印前10名
+import operator
+res_list = []
+for k in res:
+    res_list.append([k,res[k]])
+res_list.sort(key=operator.itemgetter(1),reverse=True)
+print(res_list[0:9])
