@@ -127,22 +127,22 @@ print({}.fromkeys(['name','age'],'xxx'))
 # print(my_dict.values())
 # print(my_dict.items())
 
-#popitem 从dictz随机里弹出值
-my_dict = {'name':'joe','age':'30'}
-print(my_dict.popitem())
-
-#setdefault 设置默认值，和get类似。判断如果key不存在，默认值就是abab
-my_dict = {'name':'joe','age':'30'}
-my_dict.setdefault('name1','abab')  #key中没有name1，所以在原字典中添加name1：abab
-print(my_dict)
-
-#read方法读取文件固定长度的字符，不传读取所有
-#所有操作文件的方法，都是一个文件指针概念 每次read都会修改文件指针位置，下次read从指针位置开始
-f = open('../user.txt')
-# print(f.read(5))
-# print(f.read(5))
-# print(f.read())
-
-print(f.readline()) #每次只读一行
-print(f.readlines())    #一次全部读完，返回一个list,每行一个元素
-f.close()
+# #popitem 从dictz随机里弹出值
+# my_dict = {'name':'joe','age':'30'}
+# print(my_dict.popitem())
+#
+# #setdefault 设置默认值，和get类似。判断如果key不存在，默认值就是abab
+# my_dict = {'name':'joe','age':'30'}
+# my_dict.setdefault('name1','abab')  #key中没有name1，所以在原字典中添加name1：abab
+# print(my_dict)
+#
+# #read方法读取文件固定长度的字符，不传读取所有
+# #所有操作文件的方法，都是一个文件指针概念 每次read都会修改文件指针位置，下次read从指针位置开始
+# f = open('../user.txt')
+# # print(f.read(5))
+# # print(f.read(5))
+# # print(f.read())
+#
+# print(f.readline()) #每次只读一行
+# print(f.readlines())    #一次全部读完，返回一个list,每行一个元素
+# f.close()
