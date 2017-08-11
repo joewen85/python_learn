@@ -4,6 +4,8 @@
 import os, sys, time, re, json, urllib
 from datetime import datetime, timedelta
 from qcloud_cos import CosClient, UploadFileRequest, StatFileRequest, ListFolderRequest, DelFileRequest,DelFolderRequest, CreateFolderRequest
+reload(sys)
+sys.setdefaultencoding('utf-8') #for linux fix decode ordinal not in range
 
 appid = "1251180962"
 secret_id = u'AKID9Bg4HI4kBSXQ7ev85vZ0JTSFrHVXq1Sm'
@@ -53,7 +55,7 @@ def Createfolder(cos_client,bucket,remotefolder):
     create_folder_ret = cos_client.create_folder(request)
     #print(repr(create_folder_ret['message']))
     if create_folder_ret['message'] == u'SUCCESS':
-        print('创建目录成功')
+        print(remotefolder + '创建目录成功')
     elif create_folder_ret['message'] == u'ERROR_CMD_COS_PATH_CONFLICT':
         print('目录已存在')
     else:
