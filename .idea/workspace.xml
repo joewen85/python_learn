@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="24a48c5d-4cfe-4b07-bfc6-e0df8fd53390" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/02/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03/uplad_cos_test.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03/analysis_log.py" afterPath="$PROJECT_DIR$/03/analysis_log.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03/upload_cos.py" afterPath="$PROJECT_DIR$/03/upload_cos.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -786,7 +781,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502435833594</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="upload">
+      <created>1502891374717</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1502891374717</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView">
@@ -869,7 +871,8 @@
     <MESSAGE value="20170804" />
     <MESSAGE value="20170811 cos_upload基本功能完成&#10;需要使用python2.7环境才能执行。&#10;还需要安装python模块：&#10;qcloud-cos-v4" />
     <MESSAGE value="fix linux running upload program:&#10;UnicodeDecodeError: 'ascii' codec can't decode byte 0xe5 in position 0: ordinal not in range(128)" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix linux running upload program:&#10;UnicodeDecodeError: 'ascii' codec can't decode byte 0xe5 in position 0: ordinal not in range(128)" />
+    <MESSAGE value="upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
