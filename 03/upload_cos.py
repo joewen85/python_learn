@@ -7,9 +7,9 @@ from qcloud_cos import CosClient, UploadFileRequest, StatFileRequest, ListFolder
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-appid = "1251180962"
-secret_id = u'AKID9Bg4HI4kBSXQ7ev85vZ0JTSFrHVXq1Sm'
-secret_key = u'HOJ2ZuujLlySnw8PbdT9duyqY9YmoeIw'
+appid = "xxx"
+secret_id = u'xxx'
+secret_key = u'xxx'
 region_info = 'gz'
 bucket = u'backup'
 # remotepath = u'/user.txt'

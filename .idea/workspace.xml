@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24a48c5d-4cfe-4b07-bfc6-e0df8fd53390" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/03/upload_cos.py" afterPath="$PROJECT_DIR$/03/upload_cos.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uplad_cos_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uplad_cos_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03/uplad_cos_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -99,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload_cos.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="upload_cos.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03/upload_cos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state relative-caret-position="165">
+              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding>
                 <element signature="e#43#81#0" expanded="true" />
               </folding>
@@ -207,9 +208,9 @@
         <option value="$PROJECT_DIR$/03/dict_items.py" />
         <option value="$PROJECT_DIR$/03/字符串数组互换.py" />
         <option value="$PROJECT_DIR$/03/test.py" />
-        <option value="$PROJECT_DIR$/03/upload_cos.py" />
         <option value="$PROJECT_DIR$/03/analysis_log.py" />
         <option value="$PROJECT_DIR$/03/uplad_cos_test.py" />
+        <option value="$PROJECT_DIR$/03/upload_cos.py" />
       </list>
     </option>
   </component>
@@ -266,7 +267,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -795,7 +796,14 @@
       <option name="project" value="LOCAL" />
       <updated>1502891382969</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="upload">
+      <created>1502891456311</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1502891456311</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1405,16 +1413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03/upload_cos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding>
-            <element signature="e#43#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/03/analysis_log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -1429,6 +1427,16 @@
           <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="e#42#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03/upload_cos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#43#81#0" expanded="true" />
           </folding>
         </state>
       </provider>
